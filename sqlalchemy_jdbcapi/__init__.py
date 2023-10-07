@@ -11,3 +11,9 @@ registry.register(
 registry.register(
     "jdbcapi.oceanbasejdbc", "sqlalchemy_jdbcapi.oceanbasejdbc", "OceanBaseJDBCDialect"
 )
+registry.register(
+    "jdbcapi.sqlserverjdbc", "sqlalchemy_jdbcapi.sqlserverjdbc", "SQLServerJDBCDialect"
+)
+registry.register(
+    "jdbcapi.sqlserverjdbc", "sqlalchemy_jdbcapi.atlasjdbc", "SQLServerJDBCDialect"
+)
